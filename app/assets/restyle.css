@@ -1,0 +1,309 @@
+/* ============================================================
+   AMOLAB Travel — Responsive
+   ============================================================ */
+
+@media screen and (max-width: 1024px) {
+	.flights_list .flights_wrapper {
+		grid-template-columns: repeat(4, 1fr);
+	}
+
+	.popular__list > li {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 899px) {
+	.popular__list > li:nth-child(odd) { padding: 0 8px 0 16px; }
+	.popular__list > li:nth-child(even) { padding: 0 16px 0 8px; }
+
+	li.tabs_list_item { font-size: .6875rem; padding: 8px 8px; }
+	li.tabs_list_item > img { width: 16px; height: 16px; }
+
+	.top-menu > a { padding: 5px 8px; font-size: .75rem; }
+
+	.app-link { width: 24px; height: 24px; }
+	.app-link::after { width: 24px; height: 24px; }
+
+	.cal-item { margin: 10px 8px 0; }
+
+	.footer > .container > div.noborder,
+	.footer > .container > div.footer-top {
+		padding: 0 0 24px;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.footer:not(:has(.footer-main)) > .container > div.noborder,
+	.footer:not(:has(.footer-main)) > .container > div.footer-top {
+		align-items: flex-start;
+	}
+
+	.noborder > div,
+	.footer-top > div { margin: 8px 0; }
+	.refs { order: 2; }
+	.support, .chatSupport { order: 3; }
+
+	.present__list div { font-size: 1.125rem; }
+	.avia .present__list div,
+	.hotels .present__list div { font-size: 1.25rem; }
+}
+
+@media screen and (max-width: 767px) {
+	/* keep real header height from bootstrap-custom; do not shrink to 56px */
+
+	.fixtop > .container {
+		padding: 0 16px;
+		flex-wrap: nowrap;
+	}
+
+	.header-logo { order: 1; flex: 1; }
+
+	.navbar-toggle { order: 2; display: block; }
+
+	.mobile { order: 3; }
+
+	.top-menu { order: 4; }
+
+	.header-logo__img { height: 28px; width: 90px; }
+
+	.icon-logo { width: 50px; }
+
+	.logo_host { font-size: 1.75rem; }
+
+	/* only legacy present titles — do not crush .hero-title */
+	.present .subtitle,
+	.back-present:not(.hero-screen) h1,
+	.back-present:not(.hero-screen) h4 { font-size: .875rem; }
+
+	.avia .present__list div,
+	.hotels .present__list div { font-size: 1.125rem; }
+
+	.tutu_ras, .top-menu, li.tabs_list_item span, .offmob { display: none; }
+
+	li.tabs_list_item { padding: 10px; justify-content: center; }
+	li.tabs_list_item > img { width: 22px; height: 22px; }
+
+	ul.tabs_list {
+		justify-content: space-evenly;
+		gap: 2px;
+		padding: 3px;
+	}
+
+	.present_logo { margin: 0 0 20px; }
+
+	.present__list strong { font-size: .6875rem; }
+	.present__list li { padding: 8px 16px; }
+
+	.onboard-title { line-height: 1.4; font-size: .875rem; }
+
+	.onmob, .navbar-toggle { display: block; }
+
+	.cal {
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 8px;
+	}
+
+	.cal-item { width: calc(50% - 8px); margin: 5px; }
+	.cal-item:first-child,
+	.cal-item:nth-child(2),
+	.cal-item:nth-child(4) { margin: 5px; }
+
+	.fullstat { flex-direction: column; gap: 16px; }
+	.fullstat.two > div:first-child { margin-bottom: 0; }
+
+	.top-menu {
+		display: none;
+		position: absolute;
+		width: 100%;
+		top: var(--header-h);
+		left: 0;
+		right: 0;
+		padding: 12px 24px 20px;
+		background: var(--surface);
+		border-top: 1px solid var(--border);
+		box-shadow: var(--shadow);
+		flex-direction: column;
+		align-items: stretch;
+		gap: 0;
+	}
+
+	.fixtop .top-menu a {
+		width: 100%;
+		display: block;
+		border: none;
+		padding: 10px 0;
+		border-radius: 0;
+		border-bottom: 1px solid var(--border);
+	}
+
+	.fixtop .top-menu a:last-child { border-bottom: none; }
+
+	.whitestat {
+		padding: 8px;
+		flex-direction: column;
+	}
+
+	.whitestat .ttext { padding: 12px; }
+
+	body .buttonChat .icon { width: 40px; height: 40px; }
+
+	.back-present {
+		min-height: auto;
+		margin-top: var(--header-h);
+	}
+
+	.present { padding: 32px 0 48px; }
+
+	.search-card { border-radius: var(--radius); }
+
+	.popular, .calendar, .texter { margin-top: 48px; }
+
+	.flights_list .flights_wrapper {
+		grid-template-columns: repeat(2, 1fr);
+		gap: 12px;
+	}
+
+	.button-up { bottom: 16px; left: 16px; right: auto; }
+}
+
+@media screen and (max-width: 599px) {
+	.container { padding: 0 16px; }
+
+	.back-present { background-position: center bottom; }
+
+	.popular__list > li {
+		width: 100%;
+		padding: 0 0 16px !important;
+	}
+
+	.logo_host { font-size: 1.5rem; }
+
+	h1, .present .subtitle {
+		font-size: .8125rem;
+		line-height: 1.5;
+	}
+
+	h3 { font-size: 1.25rem; }
+	h4 { font-size: 1rem; }
+
+	.present__list {
+		flex-direction: column;
+		align-items: center;
+		margin: 0;
+		gap: 8px;
+	}
+
+	.present__list li {
+		width: 100%;
+		max-width: 280px;
+		margin: 0;
+	}
+
+	.present_logo { margin: 0 0 16px; }
+
+	.present__form { padding: 0; margin-bottom: 20px; }
+
+	li.tabs_list_item { margin: 0 1px; }
+	li.tabs_list_item > img { width: 20px; height: 20px; }
+
+	.onboard-icon { width: 40px; height: 40px; }
+
+	.popular, .calendar, .texter { margin-top: 40px; }
+
+	.subtitle {
+		margin: 8px 0 24px;
+		font-size: .875rem;
+		line-height: 1.5;
+	}
+
+	.cal { margin: 16px 0; }
+
+	.cal-num { display: none; }
+
+	.cal-item {
+		width: 100%;
+		margin: 8px 0 0 !important;
+		padding: 20px 16px 16px;
+	}
+
+	.cal-item:first-child { margin: 8px 0 0 !important; }
+
+	.tflex {
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.tflex img { display: none; }
+
+	.tzag {
+		font-size: .875rem;
+		line-height: 1.4;
+		margin-bottom: 8px;
+	}
+
+	.footer {
+		margin-top: 48px;
+		padding: 32px 0 24px;
+	}
+
+	/* legacy footer only — new .footer-main layout is owned by bootstrap-custom */
+	.footer:not(:has(.footer-main)) {
+		text-align: center;
+	}
+
+	.footer:not(:has(.footer-main)) > .container > div {
+		flex-direction: column-reverse;
+		font-size: .75rem;
+		align-items: center;
+	}
+
+	.footer:not(:has(.footer-main)) > .container > div.noborder,
+	.footer:not(:has(.footer-main)) > .container > div.footer-top { align-items: center; }
+
+	.footer:not(:has(.footer-main)) .license { margin-bottom: 8px; justify-content: center; }
+
+	.blog > a, .refs > a, .support > div {
+		max-width: 100%;
+		justify-content: center;
+	}
+
+	.travel.calendar .container { padding: 0 8px; }
+
+	.overlay { background: rgba(15,23,42,.8); }
+
+	.subscription {
+		box-shadow: none;
+		padding: 32px 24px 24px;
+		margin: 0;
+		max-width: 100%;
+		border-radius: 0;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.subscription-close { margin: -16px -8px 0 0; }
+
+	.flights_list .flights_wrapper {
+		grid-template-columns: 1fr;
+	}
+
+	.item_other_flights { height: 120px; }
+}
+
+@media screen and (min-width: 768px) {
+	.present__form .search-card,
+	.present__form > div {
+		background: var(--surface);
+		border-radius: var(--radius-lg);
+		box-shadow: var(--shadow-lg);
+		padding: 8px;
+		border: 1px solid var(--border);
+	}
+
+	.form_load {
+		border-radius: var(--radius);
+	}
+}

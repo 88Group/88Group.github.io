@@ -1,0 +1,599 @@
+::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+::-moz-scrollbar {
+    width: 10px;
+	height: 10px;
+}
+::-webkit-scrollbar-button {
+	width: 0px;
+	height: 0px;
+} 
+::-moz-scrollbar-button {
+	width: 0px;
+	height: 0px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+} 
+::-moz-scrollbar-track {
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	background-color: rgba(173, 173, 173, 0.5);
+} 
+::-moz-scrollbar-thumb {
+	border-radius: 3px;
+	background-color: rgba(173, 173, 173, 0.5);
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #2196f3;
+} 
+::-moz-scrollbar-thumb:hover {
+	background: #2196f3;
+}
+::-webkit-resizer {
+	width: 4px;
+	height: 5px;
+} 
+::-moz-resizer {
+    width: 4px;
+	height: 5px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+::-moz-scrollbar-corner {
+  background: transparent;
+}
+.TPWL-widget .noborder {
+	display: none!important;
+}
+section.mewtwo-flights.mewtwo-flights--virgin.mewtwo-tabs-container {
+    background: transparent!important;
+}
+.TPWL-widget .TPWL-template-header {
+	box-shadow: 0 2px 4px 0 rgb(0 0 0 / 40%);
+	background-image: url(https://travel.amolab.ru/img/fon-1.jpg);
+    background-position: center;
+	background-size: cover; 
+}
+.TPWL-widget .search_results-wrapper-filters--left { 
+	margin-top: 0px!important; 
+}
+.TPWL-widget .search_results-wrapper-filters { 
+	width: 260px!important; 
+}
+.TPWL-widget .search_results-wrapper-tickets { 
+	max-width: 680px!important; 
+}
+.TPWL-widget .kraynov-filter-checkbox,
+.TPWL-widget .search_results-wrapper #tpwl-subscription,
+p.tp-sbscr-widget-agreement__text, 
+.ticket-action-sharing, 
+body .TPWL-header-content, 
+.TPWL-widget.user-settings .user-settings-informer, 
+.TPWL-widget #tpwl-main-form .mewtwo-flights-link_to_multi, 
+.TPWL-widget .map-button_container, 
+.TPWL-widget .search-results-title--wrapper, 
+.TPWL-widget .scroll_top_button, 
+.TPWL-widget .card-gates_list { 
+	display: none!important; 
+}
+.TPWL-widget .filters_layout > main { 
+	min-width: 230px!important; 
+	padding: 15px!important; 
+	padding-bottom: 1rem!important; 
+	background: white!important; 
+	border-radius: 5px!important; 
+}
+.TPWL-widget .TPWL_widget--xl .right-text { 
+	background: none!important; 
+}
+.TPWL-widget .TPWL_widget--xs .ticket--expanded .ticket-action-proposals-list { 
+	height: min-content!important; 
+}
+.TPWL-widget .ticket-credit { 
+	margin-top: 10px!important; 
+}
+.TPWL-widget .search_history, .mewtwo-modal { 
+	-webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,.3)!important; 
+	box-shadow: 0 0 15px 0 rgba(0,0,0,.3)!important; 
+	margin-top: 10px!important; 
+	border-radius: 4px!important; 
+}
+.TPWL-widget .baggage-tooltip { 
+	width: 220px!important; 
+}
+.TPWL-widget .ticket-credit-button { 
+	color: white!important; 
+	background: rgba(33, 150, 243, 0.5)!important; 
+	border-radius: 4px!important; 
+	border: none!important; 
+	padding: 10px 20px!important; 
+	text-transform: uppercase!important; 
+	font-size: 11px!important; 
+	display: block!important; 
+	text-align: center!important; 
+}
+.TPWL-widget .ticket, 
+.TPWL-widget .filters_layout, 
+.TPWL-widget .calendar_line, 
+.TPWL-widget .search-results-cards-wrapper-card { 
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.15);
+	border: none;
+}
+.TPWL-widget .ticket-details-toggler , .TPWL-widget .tariffs__item { 
+	background: rgba(239, 241, 244, 0.7)!important; 
+}
+.TPWL-widget .ticket-action__main_proposal { 
+	margin-top: 10px!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-flights-container--new .mewtwo-flights-trip_class , .TPWL-widget #tpwl-main-form .mewtwo-hotels-guests { 
+	border-radius: 4px!important; 
+}
+.TPWL-widget .tariffs__item--active { 
+	background: none!important; 
+}
+.TPWL-widget .ticket-action { 
+	border-right: 1px solid rgba(0,0,0,.12)!important; 
+}
+.TPWL-widget .pagination_button , .TPWL-widget .slider_field .slider_bar { 
+	background-color: #2196f3!important; 
+}
+.mewtwo-modal--whitelabel_ru .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div, .mewtwo-modal--whitelabel_ru .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div:hover, .mewtwo-modal--whitelabel_ru .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div, .mewtwo-modal--whitelabel_ru .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div:hover { 
+	background-color: #2196f3!important; 
+	background-image: none!important; 
+}
+.TPWL-widget .only-button, .TPWL-widget .search_history-header__reset:hover { 
+	color: #2196f3!important; 
+}
+.TPWL-widget .tariffs__price-text, .TPWL-widget .tariffs__info-text, .TPWL-widget .tariffs .tariffs__item--active { 
+	color: #444444!important; 
+	font-family: Roboto Condensed!important; 
+	font-weight: 300!important; 
+	letter-spacing: .05em!important; 
+}
+.TPWL-widget .slider_field .slider_arrow { 
+	border-color: #2196f3!important; 
+}
+.TPWL-widget .flight-baggage-terms { 
+	padding: 15px 0 10px 0!important; 
+}
+.TPWL-widget .flight-brief-layover-tooltip, .TPWL-widget .flight-details-leg-ameneties-tooltip, .TPWL-widget .baggage-tooltip, .TPWL-widget .ticket-action-button-tooltip { 
+	background-color: #607D8B!important; 
+}
+.TPWL-widget .flight-brief-layover-tooltip:before, .TPWL-widget .flight-details-leg-ameneties-tooltip:before, .TPWL-widget .baggage-tooltip:before, .TPWL-widget .ticket-action-button-tooltip:before {
+	border-top-color: #607D8B!important; 
+}
+.TPWL-widget .custom_select__selected { 
+	color: #999!important; 
+}
+.mewtwo-modal, .mewtwo-widget, .TPWL-widget .search_results-wrapper { 
+	font-family: Roboto Condensed!important; 
+	font-weight: 100!important; 
+	letter-spacing: 0.7px!important; 
+}
+.TPWL-widget .ticket--expanded .flight-baggage-terms { 
+	padding-left: 8px!important; 
+}
+.TPWL-widget .TPWL_widget--s .ticket-details, .TPWL-widget .TPWL_widget--xs .ticket-details { 
+	padding: 80px 15px 15px 15px!important; 
+}
+.TPWL-widget .TPWL_widget--s .ticket-action__container, .TPWL-widget .TPWL_widget--xs .ticket-action__container { 
+	padding: 10px 0 0 0px!important;
+}
+.TPWL-widget .search_progressbar .progress-bar { 
+	background-color: #2196f3!important; 
+	background-image: repeating-linear-gradient(135deg,#90caf9,#90caf9 20px,#2196f3 0,#2196f3 40px)!important; 
+}
+.TPWL-widget .search_progressbar { 
+	background: #ffffff!important; 
+}
+.TPWL-widget .countdown-title { 
+	font-family: Roboto Condensed!important; 
+	letter-spacing: .1em!important; 
+	color: #999999!important; 
+}
+.mewtwo-widget--whitelabel_ru .mewtwo-flights, .mewtwo-widget--whitelabel_ru .mewtwo-hotels { 
+	background: transparent!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-placeholder-label, .TPWL-widget #tpwl-preroll-form .mewtwo-placeholder-label, .TPWL-widget #tpwl-side-form .mewtwo-placeholder-label { 
+	font-weight: 100!important; 
+	color: white!important; 
+}
+.TPWL-widget #tpwl-main-form input[type=text] { 
+	border-radius: 4px!important; 
+	border-color: white!important; 
+	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.15)!important; 
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.15)!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-flights-dates-return, .mewtwo-widget .mewtwo-hotels-dates-checkout { 
+	margin-left: 10px!important; 
+}
+.mewtwo-widget--whitelabel_ru .mewtwo-tabs-tabs_list__item--active:after { 
+	background: none!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-tabs-tabs_list__item span, .TPWL-widget #tpwl-preroll-form .mewtwo-tabs-tabs_list__item span, .TPWL-widget #tpwl-side-form .mewtwo-tabs-tabs_list__item span { 
+	font-family: Roboto Condensed!important; 
+	letter-spacing: .05em!important; 
+	color: black!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-tabs_list .mewtwo-tabs-tabs_list__item--active > span { 
+	color: white!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-tabs_list .mewtwo-tabs-tabs_list__item--active { 
+	background-color: #f89801!important; 
+}
+.TPWL-widget #tpwl-main-form .mewtwo-tabs-tabs_list__item, .TPWL-widget #tpwl-preroll-form .mewtwo-tabs-tabs_list__item, .TPWL-widget #tpwl-side-form .mewtwo-tabs-tabs_list__item { 
+	background: white!important; 
+}
+.mewtwo-widget--whitelabel_ru .mewtwo-flights-submit_button button, .TPWL-widget .ticket-action-button-deeplink { 
+	background: #f89801!important; 
+	-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.15)!important; 
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,.15)!important; 
+	letter-spacing: 0.05em!important; 
+}
+.mewtwo-widget--whitelabel_ru .mewtwo-flights-submit_button button:hover, .TPWL-widget .ticket-action-button-deeplink:hover { 
+	background: #f8ac01!important; 
+}
+.TPWL-widget .currency_font { 
+	font-family: Roboto Condensed!important; 
+	font-weight: 300!important; 
+	letter-spacing: .05em!important; 
+}
+.mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range-legend .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range-legend .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div { 
+	border-radius: 3px!important; 
+}
+.mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div:before, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div:before, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range-legend .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div:before, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range-legend .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div:before,
+.mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div:after, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div:after, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range-legend .mewtwo-datepicker-table .mewtwo-datepicker-end-sausage div:after, .mewtwo-modal .mewtwo-datepicker.mewtwo-datepicker-range-legend .mewtwo-datepicker-table .mewtwo-datepicker-start-sausage div:after, .TPWL-widget .mewtwo-widget .mewtwo-hotels-dates:before { 
+	content: none!important; 
+}
+.mewtwo-tabs-tabs_list__item {
+	margin-right: 2px!important;
+}
+
+.TPWL-widget .container { 
+	position: relative;
+	max-width: 970px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+.TPWL-widget .footer {
+	margin-top: 70px;
+	padding: 30px 0;
+	color: #656565;
+	font-size: 14px;
+	background: #e9f9ff;
+	position: relative;
+	font-family: Roboto Condensed;
+    letter-spacing: 1px;
+}
+.TPWL-widget .footer > .container > div {
+    display: flex;
+    padding: 15px 0;
+    border-top: 1px solid #dde3eb;
+    justify-content: space-between;
+    align-items: center;
+	line-height: 25px;
+}
+.TPWL-widget .footer > .container > div.noborder {
+	padding: 20px 0 30px 0; 
+	border-top: none;
+}
+.TPWL-widget .refs, 
+.TPWL-widget .blog {
+	margin-left: 15px;
+}
+.TPWL-widget .support, 
+.TPWL-widget .chatSupport {
+	white-space: nowrap;
+}
+.TPWL-widget .blog > a, 
+.TPWL-widget .refs > a, 
+.TPWL-widget .support > div {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center;
+	width: 260px;
+    color: #2196f3;
+    letter-spacing: .5px;
+}
+.TPWL-widget .support > div {
+	width: 245px;
+	margin-left: 30px;
+}
+.TPWL-widget .support a {
+	color: #2196f3;
+}
+.TPWL-widget .blog > a > img, 
+.TPWL-widget .refs > a > img, 
+.TPWL-widget .support > div > img {
+	margin-right: 15px;
+	height: 42px;
+	min-width: 42px;
+}
+.TPWL-widget .blog > a > span, 
+.TPWL-widget .refs > a > span, 
+.TPWL-widget .support > div > span {
+	text-align: left;
+	color: #656565;
+	font-weight: 100;
+	line-height: 20px;
+}
+.TPWL-widget .support > button, 
+.TPWL-widget .chatSupport > button {
+	border-radius: 4px;
+	border: none;
+	background: #FE846DFF;
+	color: white;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 0 25px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	height: 45px;
+    line-height: 45px;
+}
+.TPWL-widget .support,
+.TPWL-widget .chatSupport, 
+.TPWL-widget .refs, 
+.TPWL-widget .blog {
+    opacity: 1;
+}
+.TPWL-widget .support:hover, 
+.TPWL-widget .refs:hover, 
+.TPWL-widget .blog:hover, 
+.TPWL-widget .chatSupport:hover {
+    opacity: 0.75;
+}
+.TPWL-widget strong {
+    text-transform: uppercase;
+}
+.TPWL-widget .overlay {
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 99999999;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+	display: none;
+	font-family: Roboto Condensed;
+    letter-spacing: 1px;
+}
+.TPWL-widget .subscription {
+    background-color: #fff;
+    z-index: 160;
+    width: 100%;
+    max-width: 440px;
+    border-radius: 10px;
+    box-shadow: 0 0 7px 0 rgba(0,0,0,.5);
+    padding: 50px 50px 35px;
+    text-align: center;
+    margin: 45px auto;
+}
+.TPWL-widget .subscription-close {
+    background: #ff6663;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.3);
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    cursor: pointer;
+    float: right;
+    margin: -35px -30px 0 0;
+}
+.TPWL-widget .subscription-close:before {
+    content: "";
+    display: block;
+    background: url(https://travel.amolab.ru/img/exit.svg) no-repeat 50%;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin: 10px;
+}
+.TPWL-widget .subscription-content {
+    display: block;
+	color: #4a4a4a;
+}
+.TPWL-widget .subscription-form:before {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(https://travel.amolab.ru/img/form.svg) no-repeat;
+    margin: auto;
+}
+.TPWL-widget .subscription-form.before:before {
+    display: none;
+}
+.TPWL-widget .subscription-result-img {
+    margin: -10px auto;
+	width: 150px;
+	display: none;
+}
+.TPWL-widget .subscription-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 25px;
+    margin: 20px -2px 10px;
+}
+.TPWL-widget .subscription-info {
+    font-size: 13px;
+    letter-spacing: 0;
+    text-align: center;
+    line-height: 25px;
+}
+.TPWL-widget .subscription-input {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid transparent;
+	font-size: 14px;
+}
+.TPWL-widget .subscription-textarea {
+    background-color: #fff;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    border-radius: 5px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    max-height: 120px;
+    text-align: center;
+    margin-top: 15px;
+    border: 1px solid transparent;
+    padding: 10px;
+	font-size: 14px;
+}
+.TPWL-widget .subscription-button {
+    background: #FE846DFF;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 10px;
+    border: none;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.2);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.35);
+	cursor: pointer;
+}
+.TPWL-widget .subscription-bottom-text {
+    font-size: .625rem;
+    color: #4a4a4a;
+    color: var(--general-text-color,#4a4a4a);
+    letter-spacing: 0;
+    line-height: 1rem;
+    margin-top: 20px;
+}
+.TPWL-widget .subscription-result > img {
+    width: 150px;
+}
+.TPWL-widget .button-up {
+    display: none;
+    position: fixed;
+    bottom: 25px;
+    left: 25px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 999998;
+    background: #FE846DFF;
+}
+.TPWL-widget .arrow-left, 
+.TPWL-widget .arrow-right {
+    position: absolute;
+    top: 16px;
+    left: 8px;
+    transform: rotate(35deg);
+}
+.TPWL-widget .arrow-right {
+    left: 18px;
+    transform: rotate(-35deg);
+}
+.TPWL-widget .arrow-left:after, 
+.TPWL-widget .arrow-right:after {
+    content: "";
+    background-color: #fff;
+    width: 15px;
+    height: 5px;
+    float: right;
+    border-radius: 5px 0px 0px 5px;
+    transform-origin: center center;
+    transform: rotate(-70deg);
+}
+.TPWL-widget .arrow-right:after {
+    border-radius: 0px 5px 5px 0px;
+    transform: rotate(70deg);
+}
+
+@media screen and (max-width: 899px) {
+	
+	.TPWL-widget .footer > .container > div.noborder {
+		padding: 0 0 20px 0;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+	.TPWL-widget .noborder > div {
+		margin: 10px 0;
+	}
+	.TPWL-widget .refs {
+		order: 2;
+	}
+	.TPWL-widget .support, 
+	.TPWL-widget .chatSupport {
+		order: 3;
+	}
+	
+}
+
+@media (max-width:599px){
+
+	.TPWL-widget .footer {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.TPWL-widget .footer > .container > div {
+		flex-direction: column-reverse;
+		font-size: 12px;
+	}
+	.TPWL-widget .footer > .container > div.noborder {
+		align-items: center;
+	}
+	.TPWL-widget .license {
+		margin-bottom: 10px;
+	}
+	.TPWL-widget .overlay {
+		background: #ffffff;
+	}
+	.TPWL-widget .subscription {
+		box-shadow: none;
+		padding: 0px 50px 30px;
+	}
+	.TPWL-widget .subscription-close {
+		margin: 0px -30px 0 0;
+	}
+	.TPWL-widget .search_results-wrapper-filters.search_results-wrapper-filters--left.js-left-column.filters--shown,
+	.TPWL-widget main.filters-left.js-filters-container,
+	.TPWL-widget .layout-manager .filters-header {
+		width: 100%!important;
+	}
+	.TPWL-widget .search_results-filters {
+		padding-right: 20px !important;
+	}	
+
+}
+
+/* Tablet: stack filters + tickets, kill fixed desktop widths */
+@media (max-width: 991.98px) {
+	.TPWL-widget .search_results-wrapper-filters,
+	.TPWL-widget .search_results-wrapper-filters--left,
+	.TPWL-widget main.filters-left.js-filters-container {
+		width: 100% !important;
+		max-width: 100% !important;
+		min-width: 0 !important;
+	}
+
+	.TPWL-widget .search_results-wrapper-tickets {
+		max-width: 100% !important;
+		width: 100% !important;
+	}
+
+	.TPWL-widget .filters_layout > main {
+		min-width: 0 !important;
+		padding-bottom: 1rem !important;
+	}
+}
